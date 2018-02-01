@@ -53,6 +53,11 @@
 @property (strong, nonatomic) UIColor *placeHolderTextColor;
 
 /**
+ *  placeholderの表示位置調整のためのプロパティ
+ */
+@property (assign, nonatomic) CGFloat placeHolderLeftInset;
+
+/**
  *  The object that acts as the paste delegate of the text view.
  */
 @property (weak, nonatomic) id<JSQMessagesComposerTextViewPasteDelegate> pasteDelegate;
